@@ -15,19 +15,19 @@
 
 ## Functions
 
-### `addLiquidity(...)`
+### `addLiquidity`
 Adds tokens to the pool. Issues LP tokens to the user.
 
-### `removeLiquidity(...)`
+### `removeLiquidity`
 Burns LP tokens and returns the underlying tokens.
 
-### `swapExactTokensForTokens(...)`
+### `swapExactTokensForTokens`
 Swaps one token for another with fee and slippage handling.
 
-### `getPrice(...)`
+### `getPrice`
 Returns the current price of one token in terms of another.
 
-### `getAmountOut(...)`
+### `getAmountOut`
 Computes expected output amount given an input amount.
 
 ## Example Usage

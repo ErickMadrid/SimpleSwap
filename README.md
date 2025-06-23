@@ -30,6 +30,9 @@ Returns the current price of one token in terms of another.
 ### `getAmountOut`
 Computes expected output amount given an input amount.
 
+### `Contract deployed and verified on Scroll Sepolia`
+ https://sepolia.etherscan.io/tx/0x630ae72b3ef58f78c1f60b2d2bd0fbd7abe252728e41536d1667d756cbd8e2a6
+
 ## Example Usage
 
 ```solidity

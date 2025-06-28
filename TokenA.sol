@@ -6,11 +6,11 @@ import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {ERC20Permit} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
-contract TakoA is ERC20, Ownable, ERC20Permit {
+contract TokenA is ERC20, Ownable, ERC20Permit {
     constructor(address recipient, address initialOwner)
-        ERC20("TakoA", "MTK")
+        ERC20("TokenA", "TKA")
         Ownable(initialOwner)
-        ERC20Permit("TakoA")
+        ERC20Permit("TokenA")
     {
         _mint(recipient, 1000000 * 10 ** decimals());
     }

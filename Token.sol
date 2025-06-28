@@ -3,8 +3,8 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract MyToken is ERC20 {
-    constructor(string memory name_, string memory symbol_) ERC20(name_, symbol_) {
-        _mint(msg.sender, 1_000_000 ether); // 1 millón tokens con 18 decimales
+contract TokenA is ERC20 {
+    constructor() ERC20("Token A", "TKA") {
+        _mint(msg.sender, 1_000_000 ether); // 1 millón de tokens con 18 decimales
     }
 }
